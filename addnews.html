@@ -1,0 +1,35 @@
+<!DOCTYPE html>  
+<html>  
+<head lang="en">  
+    <meta charset="UTF-8">  
+    <title>添加新闻</title>  
+</head>
+<style type="text/css">
+	form{
+		margin: 20px;
+	}
+	div{
+		text-align:center;
+	}
+	
+</style>
+<body bgcolor=pink>
+<div>
+<form action="action-addnews.php" method="post">  
+	<tr><label>ID：</label><input type="text" name="id">  <tr>
+<br>
+	<tr><label>标题：</label><input type="text" name="title">  <tr>
+<br>
+    <tr><label>关键字：</label><input type="text" name="keywords"> <tr>
+<br>
+    <tr><label>作者：</label><input type="text" name="autor"> <tr>
+<br>	
+    <tr><label>发布时间：</label><input type="date" name="addtime">  <tr>
+<br>
+    <tr><label>内容：</label><input type="text" name="content"> <tr> 
+<br>
+    <input type="submit" value="提交">  
+</form>  
+</div>
+</body>  
+</html>
